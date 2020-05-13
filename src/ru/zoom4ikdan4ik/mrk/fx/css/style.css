@@ -1,0 +1,11 @@
+.button {
+    -fx-focus-traversable: false;
+}
+
+.choice-box {
+    -fx-focus-traversable: false;
+}
+
+.text-field {
+    -fx-focus-traversable: false;
+}

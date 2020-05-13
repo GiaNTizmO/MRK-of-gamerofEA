@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="144.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8"
+            fx:controller="ru.zoom4ikdan4ik.mrk.controllers.Controller">
+    <children>
+        <TextField fx:id="modFile" layoutX="32.0" layoutY="30.0" prefHeight="25.0" prefWidth="169.0"
+                   promptText="Путь к файлу модификации"/>
+        <Button fx:id="browseButton" onAction="#chooserButton" layoutX="201.0" layoutY="30.0" mnemonicParsing="false"
+                prefHeight="25.0"
+                prefWidth="67.0" text="Выбрать"/>
+        <ChoiceBox fx:id="mcVersion" layoutX="99.0" layoutY="60.0" prefHeight="22.0" prefWidth="169.0"/>
+        <Label layoutX="32.0" layoutY="64.0" prefHeight="17.0" prefWidth="61.0" text="Версия MC"/>
+        <Button fx:id="decompileButton" onAction="#startReverse" layoutX="32.0" layoutY="90.0" mnemonicParsing="false"
+                prefHeight="25.0"
+                prefWidth="236.0" text="Реверс"/>
+    </children>
+</AnchorPane>

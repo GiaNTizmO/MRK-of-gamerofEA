@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MRK-of-gamerofEA">
+    <output-path>$PROJECT_DIR$/</output-path>
+    <root id="archive" name="MRK-of-gamerofEA.jar">
+      <element id="module-output" name="MRK-of-gamerofEA" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/fernflower.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libraries/BON-1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
